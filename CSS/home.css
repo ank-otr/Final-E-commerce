@@ -1,0 +1,120 @@
+.body{
+  margin-top: 60px;
+}
+
+.container-fluid{
+    padding: 1%;
+ 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; /* optional - to make sure the navigation bar stays on top of other elements */
+  padding: 20px;
+}
+
+ 
+  
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    
+   
+  }
+  
+  .logo li {
+    display: inline-block;
+    height: 50px;
+  }
+  
+  .logo img {
+    height: 100%;
+    padding-left: 90px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    margin: 20px;
+    font-size: large;
+    font-family: 'Nova Oval', cursive;
+
+  }
+  
+  a:hover {
+    color: #f60;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+   
+  }
+  select {
+    background-color: transparent;
+    border: none;
+    font-size: x-large;
+  }
+  select:focus {
+    outline: none;
+  }
+  select:hover{
+    color: #f60;
+  }
+
+  
+  .fa-user,
+  .fa-heart,
+  .fa-shopping-cart,
+  .fa-search
+  {
+    font-size: 20px;
+    padding-right: 10px;
+    color: rgb(109, 105, 105);
+  }
+  .fa-user:hover,
+.fa-heart:hover,
+.fa-shopping-cart:hover,
+.fa-search:hover {
+  color: #f60;
+}
+  
+.copyright h3{
+  text-align: center;
+  padding: 1%;
+}
+
+
+
+
+
+
+
+ 

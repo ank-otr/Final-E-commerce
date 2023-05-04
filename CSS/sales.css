@@ -1,0 +1,24 @@
+.sales{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sales .row{
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+  }
+  .sales .column {
+    margin-left: 5%;
+    padding-left: 130px;
+  }
+  .sales img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+  }
+  #sales-title{
+    text-align: center;
+    padding-top: 30px;
+  }

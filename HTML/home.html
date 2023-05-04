@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/home.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/slider.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../CSS/category.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/latest.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/sales.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/footer.css" />
+  </head>
+
+  <body>
+    <div class="container">
+    <div class="container-fixed">
+      <nav>
+        <div class="logo">
+          <img src="../IMG/logo.png" alt="Logo" />
+          <a href="home.html">
+            <h1>Drishya Camera Shop </h1>
+          </a>
+        </div>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Blog</a></li>
+          <li>
+          <div class="dropdown" >
+            <div class="dropbtn">Categories
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <!--  Main Dropdown -->
+            <div class="dropdown-one">
+              <div id="link1" class="dItem" href="#">Cameras
+                <i class=" fa fa-caret-right"></i>
+                <!--  Inside Dropdown -->
+                <div class="dropdown-two">
+                  <div class="dItem" id="file" href="#">Canon</div>
+                  <div class="dItem" id="file" href="#">Fujiflim</div>
+                  <div class="dItem" id="file" href="#">Nikon</div>
+                  <div class="dItem" id="file" href="#">Sony</div>
+                </div>
+              </div>
+              <div id="link1" class="dItem" href="#">Accessories
+                <i class="fa fa-caret-right"></i>
+                <!--  Inside Dropdown -->
+                <div class="dropdown-two">
+                  <div class="dItem" id="file" href="#">Audio</div>
+                  <div class="dItem" id="file" href="#">Drives & Storage</div>
+                  <div class="dItem" id="file" href="#">Tri-Pod</div>
+                  <div class="dItem" id="file" href="#">Stabilizer</div>
+
+                </div>
+              </div>
+              
+              <div id="link1" class="dItem" href="#">Lens 
+                <i class="fa fa-caret-right"></i>
+                <!--  Inside Dropdown -->
+                <div class="dropdown-two">
+                  <div class="dItem" id="file" href="#">Canon</div>
+                  <div class="dItem" id="file" href="#">Fujiflim</div>
+                  <div class="dItem" id="file" href="#">Nikon</div>
+                  <div class="dItem" id="file" href="#">Sony</div>
+                </div>
+              </div>
+              
+              
+              
+            </div>
+          </div> 
+        </li>
+        </ul>
+        <ul class="icons">
+          <li><a href="#"><i class="fas fa-search"></i></a></li>
+          <li><a href="#"><i class="fas fa-user"></i></a></li>
+          <li><a href="#"><i class="fas fa-heart"></i></a></li>
+          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          <li>
+            <select>
+              <option value="NPR">रु</option>
+              <option value="USD">$</option>
+              <option value="EUR">€</option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <section class="slider">
+        <div>
+          <img src="../IMG/image1.png" class="slide" alt="" />
+          <img src="../IMG/image2.png" class="slide" alt="" />
+          <img src="../IMG/image3.png" class="slide" alt="" />
+        </div>
+        <div class="slider-button">
+          <button onclick="goPrev()" class="prev">&lt;</button>
+          <button onclick="goNext()" class="next">&gt;</button>
+        </div>
+      </section>
+    </div>
+    <div class="latest">
+    <h1 id="latest-title">LATEST</h1>
+      <div class="row">
+        <div class="column">
+          <div class="image-holder">
+            <img src="../IMG/image1.png" alt="Image 1">
+          </div>
+          <div class="text-field">
+            <h3>Product Name</h3>
+            <p>$99.99</p>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="image-holder">
+            <img src="../IMG/image1.png" alt="Image 2">
+          </div>
+          <div class="text-field">
+            <h3>Product Name</h3>
+            <p>$99.99</p>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="image-holder">
+            <img src="../IMG/image1.png" alt="Image 3">
+          </div>
+          <div class="text-field">
+            <h3>Product Name</h3>
+            <p>$99.99</p>
+            <button>Add to Cart</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>   
+
+    <div class="sales">
+      <h1 id="sales-title">TOP SALES</h1>
+        <div class="row">
+          <div class="column">
+            <div class="image-holder">
+              <img src="../IMG/image1.png" alt="Image 1">
+            </div>
+            <div class="text-field">
+              <h3>Product Name</h3>
+              <p>$99.99</p>
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="column">
+            <div class="image-holder">
+              <img src="../IMG/image1.png" alt="Image 2">
+            </div>
+            <div class="text-field">
+              <h3>Product Name</h3>
+              <p>$99.99</p>
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="column">
+            <div class="image-holder">
+              <img src="../IMG/image1.png" alt="Image 3">
+            </div>
+            <div class="text-field">
+              <h3>Product Name</h3>
+              <p>$99.99</p>
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+      
+      <footer>
+        <div class="row">
+          <div class="column">
+            <h3>Column 1</h3>
+            <ol>
+              <li>Link 1</li>
+              <li>Link 2</li>
+              <li>Link 3</li>
+              <li>Link 4</li>
+            </ol>
+          </div>
+          <div class="column">
+            <h3>Column 2</h3>
+            <ol>
+              <li>Link 1</li>
+              <li>Link 2</li>
+              <li>Link 3</li>
+              <li>Link 4</li>
+            </ol>
+          </div>
+          <div class="column">
+            <h3>Column 3</h3>
+            <ol>
+              <li>Link 1</li>
+              <li>Link 2</li>
+              <li>Link 3</li>
+              <li>Link 4</li>
+            </ol>
+          </div>
+          <div class="column">
+            <h3>Column 4</h3>
+            <ol>
+              <li>Link 1</li>
+              <li>Link 2</li>
+              <li>Link 3</li>
+              <li>Link 4</li>
+            </ol>
+          </div>
+        </div>
+      </footer>
+      <div class="copyright">
+        <h3>copyright &copy; 2023  </h3>
+      </div>
+</div>
+    <script src="../JS/slider.js"></script>
+  </body>
+</html>
