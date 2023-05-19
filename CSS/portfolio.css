@@ -31,17 +31,23 @@
     margin-top: 10px;
   }
   
-  .member a {
+  
+
+  button {
     display: block;
     margin: 20px;
-    background-color: #4CAF50;
+    background-color: grey;
     color: #fff;
     padding: 10px;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    font-size: larger;
+    margin-left: 100px;
+  }
+  button:hover{
+    background-color:#f60;
+    ;
   }
   
-  .member a:hover {
-    background-color: #3E8E41;
-  }
+  
