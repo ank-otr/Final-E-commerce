@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+.research{
+   margin-top: 10%;
+   margin-left: 10%;
+}  
+.research h2
+{
+    color: #f60;
+}
