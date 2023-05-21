@@ -32,3 +32,15 @@ cvButton3.addEventListener("click", function() {
   // Open the PDF CV in a new tab or window
   window.open(pdfPath, "_blank");
 });
+
+// Get the button element
+const cvButton4 = document.getElementById("cvButton4");
+
+// Add click event listener to the button
+cvButton4.addEventListener("click", function() {
+  // Retrieve the PDF path from the data attribute
+  const pdfPath = cvButton4.getAttribute("data-pdf");
+  
+  // Open the PDF CV in a new tab or window
+  window.open(pdfPath, "_blank");
+});
