@@ -1,5 +1,5 @@
 // Get the button element
-const cvButton = document.getElementById("cvButton");
+const cvButton= document.getElementById("cvButton");
 
 // Add click event listener to the button
 cvButton.addEventListener("click", function() {
@@ -9,9 +9,8 @@ cvButton.addEventListener("click", function() {
   // Open the PDF CV in a new tab or window
   window.open(pdfPath, "_blank");
 });
-
 // Get the button element
-const cvButton2 = document.getElementById("cvButton3");
+const cvButton2 = document.getElementById("cvButton2");
 
 // Add click event listener to the button
 cvButton2.addEventListener("click", function() {
@@ -29,18 +28,6 @@ const cvButton3 = document.getElementById("cvButton3");
 cvButton3.addEventListener("click", function() {
   // Retrieve the PDF path from the data attribute
   const pdfPath = cvButton3.getAttribute("data-pdf");
-  
-  // Open the PDF CV in a new tab or window
-  window.open(pdfPath, "_blank");
-});
-
-// Get the button element
-const cvButton4 = document.getElementById("cvButton3");
-
-// Add click event listener to the button
-cvButton4.addEventListener("click", function() {
-  // Retrieve the PDF path from the data attribute
-  const pdfPath = cvButton4.getAttribute("data-pdf");
   
   // Open the PDF CV in a new tab or window
   window.open(pdfPath, "_blank");
