@@ -1,29 +1,51 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    
   }
   
-  .section {
-    margin-bottom: 30px;
-  }
+
   
   h2 {
     font-size: 24px;
     color: #333;
-    margin-bottom: 10px;
+    
   }
   
   p {
     font-size: 16px;
     color: #666;
     line-height: 1.5;
+    width: auto;
   }
 .research{
-   margin-top: 10%;
-   margin-left: 10%;
+  margin-left: 5%;
+ 
 }  
-.research h2
-{
-    color: #f60;
+
+.section img {
+ 
+    width: 200px;
+    height: 300px;
+    
+}
+.container {
+  margin: 7%;
+}
+.section2 img {
+  width: 200px;
+  padding-top: 80px;
+}
+
+.section2{
+  margin-top: 2%;
+}
+
+.section3 img{
+  padding-top: 30px;
+width: 400px;
+}
+
+.section3{
+  padding-top: 20px;
 }
