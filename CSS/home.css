@@ -111,6 +111,18 @@ nav {
   padding: 1%;
 }
 
+.foot li{
+  padding-left: 40px;
+}
+
+.foot img {
+  width: 50px;
+  height: 50px;
+  margin-left: 45px;
+}
+.foot a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 

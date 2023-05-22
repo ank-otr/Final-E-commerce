@@ -10,7 +10,6 @@
 .latest img {
   height: 200px;
   width: 200px;
-  border-radius: 50%;
 }
 #latest-title{
   text-align: center;
@@ -30,11 +29,14 @@ button {
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
-  background-color: #4CAF50;
+  background-color: gray;
   color: #FFFFFF;
   font-size: 14px;
   cursor: pointer;
   padding-left: 30px;
+}
+button:hover{
+  background-color: #f60;
 }
 
 h3 {
@@ -43,5 +45,5 @@ h3 {
 }
 p{
   margin-bottom: 5px;
-  margin-left: 35px;
+  
 }
